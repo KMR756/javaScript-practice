@@ -108,6 +108,7 @@ gameCounter3-- //prefix :decreases the value first, then returns it.
 let gameCounter4 = 100
 --gameCounter3  //postfix :Returns the value first, then decreases .
 
+// console.log(gameCounter,gameCounter2,gameCounter3,gameCounter4);
 
 
 /**note : conversion with Number () datatype
