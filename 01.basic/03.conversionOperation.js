@@ -62,6 +62,54 @@ let valueInBoolean4 = Boolean (testBoolean4)
 // console.log(valueInBoolean3);
 // console.log(valueInBoolean4);
 
+
+// *** operation ***
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2); //addition
+// console.log(2-2); //subtraction
+// console.log(2*2); //multiplication
+// console.log(2**2); //power
+// console.log(2/2); //division
+// console.log(2%2); //reminder | modules
+
+let str1 = "hello"
+let str2 = "Rahat"
+let srt3 = str1 +" " + str2
+// console.log(srt3);
+
+
+//**** not important */
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+// console.log((3+4) * 5 % 3);
+// console.log(+true);
+// console.log(+"");
+let num1,num2,num3
+num1 = num2 = num3 = 2+2
+// console.log(num1,num2,num3);
+
+
+
+//**** prefix | profix */
+let gameCounter = 100
+++gameCounter; //prefix :Increases the value first, then returns it.
+
+let gameCounter2 = 100
+gameCounter2++; //postfix :Returns the value first, then increases .
+
+let gameCounter3 = 100
+gameCounter3-- //prefix :decreases the value first, then returns it.
+let gameCounter4 = 100
+--gameCounter3  //postfix :Returns the value first, then decreases .
+
+
+
 /**note : conversion with Number () datatype
  * "33" => 33
  * "33abc=> NaN
