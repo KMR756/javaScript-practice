@@ -47,3 +47,48 @@
     Primitives are simple & immutable, so no need for references. Objects/arrays/functions are complex & can grow in size, so JS uses references to manage them efficiently in memory.
 
 */
+
+
+
+// ######################################
+/**Stack(premitive) 
+ * Used for Primitive values (`string, number, boolean, null, undefined, symbol, bigint`).
+ * Stored by valu → each variable gets itsown cop.
+ * Faster acces because values are small & fixed.
+ *  Example:
+
+  let a = 10;
+  let b = a;  // copy of value
+  b = 20;
+  console.log(a); // 10  (unchanged)
+  console.log(b); // 20
+
+ * *Heap(non-primitive)**
+  * Used for: Non-primitive values (`objects, arrays, functions`).
+  * Stored by reference (memory address).
+  * Copying a variable copies only the reference → both point to the same object in memory.
+  ***  Example:***
+  let obj1 = { name: "Rahat" };
+  let obj2 = obj1;  // reference copy
+  obj2.name = "Khan";
+  console.log(obj1.name); // "Khan"  (changed)
+
+
+
+  ***********************Interview-Style Q&A***********
+Q1: Why are primitives stored in the stack?
+   Because they are small, fixed-size, and immutable → easy to store and access quickly.
+
+Q2: Why are non-primitives stored in the heap?
+   Because they can be large, dynamic in size, and mutable → heap allows flexible memory allocation.
+
+Q3: What happens when you copy a primitive vs a reference type?
+   Primitive → value is copied (independent).
+   Reference → memory address is copied (shared).
+
+
+   ******In short for interview:****
+
+Stack → Primitive (by value, independent).
+Heap → Non-Primitive (by reference, shared).
+*/
