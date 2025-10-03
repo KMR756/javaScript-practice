@@ -120,4 +120,23 @@ let gameCounter4 = 100
  * 1 => true; 0=> false
  * ""=> false
  * "rahat" => true
+ * 
+ * 
+ * Q: What are common operators in JS?
+
+    Arithmetic: + - * / % **
+
+    Assignment: = += -= *= /=
+
+    Logical: && || !
+
+    Unary: ++ -- typeof
+
+    Ternary: condition ? value1 : value2
+
+ * Q: Difference between == and ===?
+
+    == → loose equality (checks value only, allows type coercion).
+
+    === → strict equality (checks value + type).
  */
